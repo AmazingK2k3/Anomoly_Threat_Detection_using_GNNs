@@ -2,4 +2,4 @@
 *.csv
 /teamspace/studios/this_studio/Anomoly_Threat_Detection_using_GNNs/datasets/cicids2017/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
 
-
+*.pdf

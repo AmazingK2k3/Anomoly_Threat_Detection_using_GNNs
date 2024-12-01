@@ -1,0 +1,18 @@
+ 01-12-2024 05:39:59:727 [pid=2265 tid=2265] NOTICE  cufio-drv:720 running in compatible mode
+ 01-12-2024 05:39:59:949 [pid=2265 tid=2265] ERROR  cufio-fs:322 error creating udev_device for block device dev_no: 0:73
+ 01-12-2024 05:39:59:949 [pid=2265 tid=2265] ERROR  cufio-fs:742 error getting volume attributes error for device: dev_no: 0:73
+ 01-12-2024 05:39:59:949 [pid=2265 tid=2265] ERROR  cufio-obj:177 unable to get volume attributes for fd 107
+ 01-12-2024 05:39:59:949 [pid=2265 tid=2265] ERROR  cufio:1564 cuFileHandleRegister error, failed to allocate file object
+ 01-12-2024 05:39:59:949 [pid=2265 tid=2265] ERROR  cufio:1592 cuFileHandleRegister error: internal error
+ 01-12-2024 05:40:39:92 [pid=19572 tid=19572] NOTICE  cufio-drv:720 running in compatible mode
+ 01-12-2024 05:40:39:305 [pid=19572 tid=19572] ERROR  cufio-fs:322 error creating udev_device for block device dev_no: 0:73
+ 01-12-2024 05:40:39:305 [pid=19572 tid=19572] ERROR  cufio-fs:742 error getting volume attributes error for device: dev_no: 0:73
+ 01-12-2024 05:40:39:305 [pid=19572 tid=19572] ERROR  cufio-obj:177 unable to get volume attributes for fd 107
+ 01-12-2024 05:40:39:305 [pid=19572 tid=19572] ERROR  cufio:1564 cuFileHandleRegister error, failed to allocate file object
+ 01-12-2024 05:40:39:305 [pid=19572 tid=19572] ERROR  cufio:1592 cuFileHandleRegister error: internal error
+ 01-12-2024 06:03:58:9 [pid=34339 tid=34339] NOTICE  cufio-drv:720 running in compatible mode
+ 01-12-2024 06:03:58:230 [pid=34339 tid=34339] ERROR  cufio-fs:322 error creating udev_device for block device dev_no: 0:73
+ 01-12-2024 06:03:58:230 [pid=34339 tid=34339] ERROR  cufio-fs:742 error getting volume attributes error for device: dev_no: 0:73
+ 01-12-2024 06:03:58:230 [pid=34339 tid=34339] ERROR  cufio-obj:177 unable to get volume attributes for fd 107
+ 01-12-2024 06:03:58:230 [pid=34339 tid=34339] ERROR  cufio:1564 cuFileHandleRegister error, failed to allocate file object
+ 01-12-2024 06:03:58:230 [pid=34339 tid=34339] ERROR  cufio:1592 cuFileHandleRegister error: internal error

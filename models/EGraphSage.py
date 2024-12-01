@@ -74,7 +74,7 @@ class MeanAggregator(nn.Module):
         super(MeanAggregator, self).__init__()
 
         self.edge_features = edge_features
-        self.cuda = cuda
+        self.cuda_device = torch.device(cuda) if cuda else None
         self.gcn = gcn
 
     def forward(self, nodes, to_neighs, num_sample=None):
@@ -158,8 +158,8 @@ class Encoder(nn.Module):
 
         self.gcn = gcn  # True: Mean-agg  False: GCN-agg
         self.embed_dim = embed_dim
-        self.cuda = cuda
-        self.aggregator.cuda = cuda
+        self.cuda_device = cuda
+        self.aggregator.cuda_device = cuda
         self.weight = nn.Parameter(
             torch.FloatTensor(
                 embed_dim, self.feat_dim + self.embed_dim if self.gcn else self.feat_dim
